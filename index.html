@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Micheli">
+    <link rel="icon" href="./images/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans&display=swap"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Podcast Channel</title>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="./images/logo.svg" alt="">
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li><a href="#episodios">Episodios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#entrevistas">Entrevistas</a></li>
+            <li><a href="#topicos">Tópicos</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="hello">
+            <h1>Hello <span class="line">world</span> pale blue dot<span class="blue-dot">.</span></h1>
+            <p>Un podcast que explora el mundo de la programación<span class="tech"> y la tecnología</span>. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <div class="btn"><a href="#nosotros">CONOCÉ MÁS</a></div>
+        </section>
+        <section class="episodios" id="episodios">
+            <div class="episodios_bg"></div>
+            <h2>Episodios</h2>
+            <div class="episodios-container">
+                <div class="episodio">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"></iframe>
+                </div>
+                <div class="episodio">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"></iframe>
+                </div>
+                <div class="episodio">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"></iframe>
+                </div>
+                <div class="episodio">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="nosotros" id="nosotros">
+            <img src="./images/phone.png" alt="Image of Joseph C. Towler, Jr. coding">
+            <div class="nosotros-description">
+                <h2>De dónde venimos</h2>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </section>
+        <section class="entrevistas" id="entrevistas">
+            <h2>Invitadas/os estelares</h2>
+            <div class="image-container">
+                <div class="img"><img src="./images/grace-hopper.png" alt="Grace Hopper"></div>
+                <div class="img"><img src="./images/Katie-Bouman.png" alt="Katie Bouman"></div>
+                <div class="img"><img src="./images/Margaret_Hamilton.png" alt="Margaret Hamilton"></div>
+                <div class="img"><img src="./images/An-E.R.A.-Univac-1103-computer-in-the-1950s.png" alt="A Univac computer in the 1950s"></div>
+                <div class="img"><img src="./images/Computer-operators-with-an-Eniac-the-worlds-first-programmable-general-purpose-computer.png" alt="Computer operators with an Eniac — the worlds first programmable general-purpose computer"></div>
+                <div class="img"><img src="./images/susan-kare.png" alt="Susan Kare"></div>
+            </div>
+        </section>
+        <section class="topicos" id="topicos">
+            <h2>Algunos de nuestros temas</h2>
+            <div class="topics-container">
+                <div class="topic">
+                    <img src="./images/icon1.svg" alt="Trabajo Remoto">
+                    <p>Trabajo Remoto</p>
+                </div>
+                <div class="topic">
+                    <img src="./images/icon2.svg" alt="Repensando la programación">
+                    <p>Repensando la programación</p>
+                </div>
+                <div class="topic">
+                    <img src="./images/icon3.svg" alt="Bases del código">
+                    <p>Bases del código</p>
+                </div>
+                <div class="topic">
+                    <img src="./images/icon4.svg" alt="Seguridad Informática">
+                    <p>Seguridad Informática</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="novedades">
+            <div class="novedades_bg"></div>
+            <h2>¿Querés las últimas novedades?</h2>
+            <div class="btn"><a href="#episodios">ESCUCHÁ LOS EPISODIOS</a></div>
+        </section>
+        <div class="end">
+            <p>&copy; 2019- Hello blue pale dot</p>
+            <div class="social">
+                <a href="https://www.spotify.com" target="_blank"><i class="fa fa-spotify"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.telegram.org" target="_blank"><i class="fa fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
